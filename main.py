@@ -7,7 +7,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler, PolynomialFeatures
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, roc_curve, auc
 
-# Load the dataset
+# Load the datase
 data = pd.read_csv("diabetes.csv")
 print("Dataset Shape:", data.shape)
 
